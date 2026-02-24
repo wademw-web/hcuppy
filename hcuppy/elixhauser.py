@@ -172,8 +172,8 @@ class ElixhauserEngine:
                     score += self.weights[model].get("mw"+cmrbdt,0)
             return score
 
-        if not isinstance(dx_full_lst, list):
-            dx_lst = [dx_lst]
+        #if not isinstance(dx_full_lst, list):
+        #    dx_lst = [dx_lst]
       
         # cleanup
         dx_full_lst = [dx.strip().upper().replace(".","") 
